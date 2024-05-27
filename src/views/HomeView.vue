@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-
 import Navbar from '@/components/Navbar.vue';
 import Card from '@/components/Card.vue';
 import Footer from '@/components/Footer.vue';
