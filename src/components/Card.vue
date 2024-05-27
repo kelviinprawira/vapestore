@@ -1,18 +1,24 @@
 <script setup>
+import Image1 from '/public/images1.png'
+import Image2 from '/public/images2.png'
+import Image3 from '/public/images3.png'
+import Image4 from '/public/images4.png'
+import Image5 from '/public/images5.png'
+
 const data = [
-  { id: 1, src: '../public/images1.png', title: 'Pulse Aio Pro', price: 800000,
+  { id: 1, src: "/public/images1.png", title: 'Pulse Aio Pro', price: 800000,
   description: 'Varian terbaru dari pulse aio dengan konsep yang colorfull', type: 'AIO'},
   
-  { id: 2, src: "../public/images2.png", title: "Paradewa Sthorberry", price: 100000,
+  { id: 2, src: "/public/images2.png", title: "Paradewa Sthorberry", price: 100000,
   description: 'Liquid terbaru dari paradewa dengan', type: 'LIQUID'},
 
-  { id: 3, src: '../public/images3.png', title: 'Oxva Xlim Pro', price: 200000, 
+  { id: 3, src: "/public/images3.png", title: 'Oxva Xlim Pro', price: 200000, 
   description: 'POD kekinian yang disukai banyak anak muda', type: 'POD' },
   
-  { id: 4, src: '../public/images4.png', title: 'Drop Rda', price: 400000,
+  { id: 4, src: "/public/images4.png", title: 'Drop Rda', price: 400000,
   description: 'Rda terbaru dari drop yang menawarkan flavour dan th yang nikmat', type: 'RDA'},
   
-  { id: 5, src: '../public/images5.png', title: 'Tita Rta', price: 600000,
+  { id: 5, src: "/public/images5.png", title: 'Tita Rta', price: 600000,
   description: 'New tita RTA dengan model terbaru', type: 'RTA'},
 ];
 </script>
