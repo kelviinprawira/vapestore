@@ -12,7 +12,7 @@ import Caraousel from '@/components/Caraousel.vue';
     <div class="flex items-center justify-center mt-5 mb-5">
       <Caraousel />
     </div>
-    <div class="grid items-start justify-between grid-flow-col gap-4">
+    <div class="grid items-start justify-between grid-flow-col gap-4 ">
       <Card />
     </div>
     <Footer />
